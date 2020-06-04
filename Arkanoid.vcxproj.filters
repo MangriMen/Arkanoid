@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{4fb05878-3c27-4d7d-a18f-ceffdbb1cde8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Level">
+      <UniqueIdentifier>{0d313306-1822-4c32-8f5e-62763a8426e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu">
+      <UniqueIdentifier>{f93ef85b-fee9-4498-a8a3-d7a421b2d431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Form">
+      <UniqueIdentifier>{4910e62d-3d08-4203-88af-919e38d2a64e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Form">
+      <UniqueIdentifier>{35a88fa0-e26c-49cd-8b9c-e45f9c663a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level">
+      <UniqueIdentifier>{1efad3e4-ff4e-4e1f-8b44-461325655f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images">
+      <UniqueIdentifier>{36ead1af-17d0-4817-b235-be29d2912515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\music">
+      <UniqueIdentifier>{c65b2428-d411-468c-bc09-d9a15e3a0a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Settings">
+      <UniqueIdentifier>{f1863b70-509a-43ec-8319-4195e124b300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Levels">
+      <UniqueIdentifier>{d9befe37-2196-44f7-93d6-17ee509251e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\thirdparty">
+      <UniqueIdentifier>{26a0cee4-6ef8-4060-8e1e-0f87c05b65c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Form.cpp">
+      <Filter>Source Files\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelMenu.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsMenu.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainMenu.hpp">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Form.hpp">
+      <Filter>Header Files\Form</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelMenu.hpp">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsMenu.hpp">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.hpp">
+      <Filter>Header Files\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files\thirdparty</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.hpp">
+      <Filter>Header Files\Level</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\background.jpg">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="images\ball.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="images\ball16x16.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="images\block_blue.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="images\block_green.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="images\block_lightblue.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="images\block_red.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="images\block_white.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="images\level.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="images\paddle.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LicensedMusic.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="music\JourneyThroughUniverse.ogg">
+      <Filter>Resource Files\music</Filter>
+    </None>
+    <None Include="music\OpenSpace.ogg">
+      <Filter>Resource Files\music</Filter>
+    </None>
+    <None Include="music\Synthwave.ogg">
+      <Filter>Resource Files\music</Filter>
+    </None>
+    <None Include="music\BushWeek.ogg">
+      <Filter>Resource Files\music</Filter>
+    </None>
+    <None Include="levels\level_1.json">
+      <Filter>Resource Files\Levels</Filter>
+    </None>
+  </ItemGroup>
+</Project>

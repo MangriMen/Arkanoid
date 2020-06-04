@@ -1,0 +1,16 @@
+{
+  "blocks": [
+    [ "Left", 10 ],
+    [ "Center", 100 ],
+    [ "Right", 10 ]
+  ],
+  "textures": [
+    [ "Background", "images/background.jpg" ],
+    [ "BlockWhite", "images/block_white.png" ],
+    [ "BlockRed", "images/block_red.png" ],
+    [ "BlockGreen", "images/block_green.png" ],
+    [ "BlockBlue", "images/block_blue.png" ],
+    [ "Ball", "images/ball16x16.png" ],
+    [ "Paddle", "images/paddle.png" ]
+  ]
+}
